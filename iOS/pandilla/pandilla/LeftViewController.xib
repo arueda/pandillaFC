@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LeftViewController" customModule="pandilla" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9k-sg-EFE">
+                    <rect key="frame" x="20" y="103" width="53" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="VTD-0B-YsI"/>
+                        <constraint firstAttribute="width" constant="184" id="whE-20-O3I"/>
+                    </constraints>
+                    <state key="normal" image="boton1">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYM-5L-Xst">
+                    <rect key="frame" x="20" y="269" width="53" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="184" id="Fgu-fq-q2f"/>
+                    </constraints>
+                    <state key="normal" image="boton3">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Pandilla F.C." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcU-8a-uTa">
+                    <rect key="frame" x="13" y="146" width="66" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="2g6-Cg-wqq"/>
+                        <constraint firstAttribute="width" constant="66" id="ke3-EN-SL6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="10"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jugadores" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="miJ-FX-gsf">
+                    <rect key="frame" x="13" y="240" width="66" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="10"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estadísticas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzm-AH-dGV">
+                    <rect key="frame" x="11" y="312" width="66" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="10"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXV-nu-PVc">
+                    <rect key="frame" x="20" y="197" width="53" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="184" id="bNU-a9-tcA"/>
+                    </constraints>
+                    <state key="normal" image="boton2">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="mostrarJugadores" destination="-1" eventType="touchUpInside" id="mYg-52-pBH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0s-yQ-EhS">
+                    <rect key="frame" x="20" y="341" width="49" height="27"/>
+                    <state key="normal" image="boton4">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Galería" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9p-fo-ysY">
+                    <rect key="frame" x="11" y="376" width="66" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="10"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.16470588235294117" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="lcU-8a-uTa" firstAttribute="top" secondItem="a9k-sg-EFE" secondAttribute="bottom" constant="8" id="0kp-fw-48v"/>
+                <constraint firstItem="a9k-sg-EFE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="103" id="GcS-sN-y1W"/>
+                <constraint firstItem="lcU-8a-uTa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="QCv-nm-NVd"/>
+                <constraint firstItem="a9k-sg-EFE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="cAT-Wo-PrP"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="boton1" width="49" height="28"/>
+        <image name="boton2" width="49" height="29"/>
+        <image name="boton3" width="49" height="27"/>
+        <image name="boton4" width="49" height="27"/>
+    </resources>
+</document>
