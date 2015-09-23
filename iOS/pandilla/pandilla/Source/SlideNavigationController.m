@@ -53,7 +53,7 @@ NSString  *const SlideNavigationControllerDidReveal = @"SlideNavigationControlle
 #define MENU_IMAGE @"menu-button"
 #define MENU_SHADOW_RADIUS 10
 #define MENU_SHADOW_OPACITY 1
-#define MENU_DEFAULT_SLIDE_OFFSET 60
+#define MENU_DEFAULT_SLIDE_OFFSET 300
 #define MENU_FAST_VELOCITY_FOR_SWIPE_FOLLOW_DIRECTION 1200
 #define STATUS_BAR_HEIGHT 20
 #define NOTIFICATION_USER_INFO_MENU_LEFT @"left"

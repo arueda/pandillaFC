@@ -22,8 +22,23 @@ class LeftViewController: UIViewController {
     }
     
     @IBAction func mostrarJugadores(){
+        NSLog("entra aqui a mostrar jugadores")
+        let slideNavigation = SlideNavigationController.sharedInstance()
         
-        NSNotificationCenter.defaultCenter().postNotificationName("mostrar_jugadores", object: nil)
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let destinationvc: ListaJugadoresViewController = sb.instantiateViewControllerWithIdentifier("jugadores") as! ListaJugadoresViewController
+        
+        slideNavigation.popToRootAndSwitchToViewController(destinationvc, withSlideOutAnimation: false, andCompletion: nil)
+            
+        
+            
+            
+        
+        
+        
+        //slideNavigation.popToRootViewControllerAnimated(false)
+        //slideNavigation.performSegueWithIdentifier("mostrar_jugadores", sender: nil)
+        //NSNotificationCenter.defaultCenter().postNotificationName("mostrar_jugadores", object: nil)
         
     }
     

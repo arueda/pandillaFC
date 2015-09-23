@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400E3A1D1BA51601009C7AF5 /* MatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E3A1C1BA51601009C7AF5 /* MatchTableViewCell.swift */; };
+		4018AB4C1BADC63C000FFB70 /* SynchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4018AB4B1BADC63C000FFB70 /* SynchViewController.swift */; };
+		4018AB4F1BAE6874000FFB70 /* PandillaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4018AB4E1BAE6874000FFB70 /* PandillaData.swift */; };
 		91758AFE1B8E0A0300ED74A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91758AFD1B8E0A0300ED74A8 /* AppDelegate.swift */; };
 		91758B001B8E0A0300ED74A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91758AFF1B8E0A0300ED74A8 /* ViewController.swift */; };
 		91758B031B8E0A0300ED74A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91758B011B8E0A0300ED74A8 /* Main.storyboard */; };
@@ -51,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		400E3A1C1BA51601009C7AF5 /* MatchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchTableViewCell.swift; path = Source/MatchTableViewCell.swift; sourceTree = "<group>"; };
+		4018AB4B1BADC63C000FFB70 /* SynchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchViewController.swift; sourceTree = "<group>"; };
+		4018AB4E1BAE6874000FFB70 /* PandillaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PandillaData.swift; sourceTree = "<group>"; };
 		91758AF81B8E0A0300ED74A8 /* pandilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pandilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91758AFC1B8E0A0300ED74A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91758AFD1B8E0A0300ED74A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +131,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4018AB4D1BAE6841000FFB70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4018AB4E1BAE6874000FFB70 /* PandillaData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		91758AEF1B8E0A0300ED74A8 = {
 			isa = PBXGroup;
 			children = (
@@ -159,18 +173,21 @@
 		91758AFA1B8E0A0300ED74A8 /* pandilla */ = {
 			isa = PBXGroup;
 			children = (
+				4018AB4D1BAE6841000FFB70 /* Model */,
 				91758B1D1B94F01200ED74A8 /* Source */,
 				91758AFD1B8E0A0300ED74A8 /* AppDelegate.swift */,
 				91758B581B97645C00ED74A8 /* ListaJugadoresViewController.swift */,
 				91758B5A1B976B9D00ED74A8 /* JugadorCollectionViewCell.swift */,
 				91758B371B94F0AB00ED74A8 /* SlideNavigation.h */,
 				91758AFF1B8E0A0300ED74A8 /* ViewController.swift */,
+				400E3A1C1BA51601009C7AF5 /* MatchTableViewCell.swift */,
 				91758B011B8E0A0300ED74A8 /* Main.storyboard */,
 				91758B041B8E0A0300ED74A8 /* Images.xcassets */,
 				91758B061B8E0A0300ED74A8 /* LaunchScreen.xib */,
 				91758AFB1B8E0A0300ED74A8 /* Supporting Files */,
 				91758B381B94F22600ED74A8 /* LeftViewController.swift */,
 				91758B391B94F22600ED74A8 /* LeftViewController.xib */,
+				4018AB4B1BADC63C000FFB70 /* SynchViewController.swift */,
 			);
 			path = pandilla;
 			sourceTree = "<group>";
@@ -349,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4018AB4F1BAE6874000FFB70 /* PandillaData.swift in Sources */,
 				91758B311B94F01200ED74A8 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
 				91758B591B97645C00ED74A8 /* ListaJugadoresViewController.swift in Sources */,
 				91758B2F1B94F01200ED74A8 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
@@ -356,10 +374,12 @@
 				91758B361B94F01200ED74A8 /* SlideNavigationController.m in Sources */,
 				91758B001B8E0A0300ED74A8 /* ViewController.swift in Sources */,
 				91758AFE1B8E0A0300ED74A8 /* AppDelegate.swift in Sources */,
+				400E3A1D1BA51601009C7AF5 /* MatchTableViewCell.swift in Sources */,
 				91758B3A1B94F22600ED74A8 /* LeftViewController.swift in Sources */,
 				91758B5B1B976B9D00ED74A8 /* JugadorCollectionViewCell.swift in Sources */,
 				91758B301B94F01200ED74A8 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
 				91758B331B94F01200ED74A8 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				4018AB4C1BADC63C000FFB70 /* SynchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +587,7 @@
 				91758B191B8E0A0300ED74A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91758B1A1B8E0A0300ED74A8 /* Build configuration list for PBXNativeTarget "pandillaTests" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +596,7 @@
 				91758B1C1B8E0A0300ED74A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

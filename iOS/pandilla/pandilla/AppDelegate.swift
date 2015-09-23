@@ -18,11 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        let leftMenu:LeftViewController = LeftViewController(nibName: "LeftViewController", bundle: nil)
-        
-        SlideNavigationController.sharedInstance().rightMenu = nil
-        SlideNavigationController.sharedInstance().leftMenu = leftMenu
-        
         Parse.setApplicationId("skvKzvxpL7UcBSU4ttsm52HgBG4UDMvEopGmLvR0",
             clientKey: "k8yVz2YTBhUTaKYUXoC0dxvg3w12319UNW2623fm")
         
